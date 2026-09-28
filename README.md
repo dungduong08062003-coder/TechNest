@@ -15,7 +15,7 @@ Backend API for website of sell laptop, built with ASP.NET Core and SQL Server.
 - Swagger
 ## Installation
 1. Clone repo:
-git clone https://github.com/dungduong08062003-coder/TechNest
+git clone https://github.com/yourname/WebsiteSellLaptop.git
 
 2. Open appsettings.json and change:
 - DefaultConnection:
