@@ -8,7 +8,8 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Unicode;
 using WebsiteComputer.Models;
-
+// Thêm dòng này lên đầu tiên của MainProgram.cs
+AppContext.SetSwitch("System.Net.DisableIPv6", true);
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
 
